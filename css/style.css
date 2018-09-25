@@ -259,14 +259,14 @@ header {
 .tagline {
     font-size: 23px;
     font-weight: 300;
-    //color: #ffb8f6;
+    /*color: #ffb8f6;*/
     max-width: 800px;
     margin: 0 auto;
 }
 
 .img-holder {
-    height: 0;
-    padding-bottom: 33%;
+    /*height: 0;
+    padding-bottom: 33%;*/
     overflow: hidden;
 }
 
@@ -672,6 +672,16 @@ header {
     font-weight: bold;
 }
 
+.myCard{
+
+    color: white;
+    background-color: #4834d4;
+    text-align: center;
+    padding: 10%;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 10px 1px;
+}
 
 
 
