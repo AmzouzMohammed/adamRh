@@ -272,7 +272,7 @@ header {
 
 @media (max-width:1200px) {
     .img-holder {
-        padding-bottom: 50%;
+        //padding-bottom: 50%;
     }
 }
 
@@ -281,7 +281,7 @@ header {
         font-size: 17px;
     }
     .img-holder {
-        padding-bottom: 100%;
+        //padding-bottom: 100%;
     }
 }
 
@@ -682,6 +682,8 @@ header {
     cursor: pointer;
     margin: 10px 1px;
 }
+
+
 
 
 
