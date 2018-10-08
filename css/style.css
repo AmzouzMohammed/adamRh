@@ -181,7 +181,7 @@ p.lead {
 ----------------------*/
 
 .nav-menu {
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     transition: all 0.3s ease;
 }
 
@@ -235,7 +235,12 @@ p.lead {
         padding-bottom: 1rem;
     }
     .navbar-nav .nav-item {
-        text-align: center;
+        /*text-align: center;*/
+    }
+    .ml-auto{
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        margin-top: 3%;
+        padding-top: 2%;
     }
 }
 
@@ -272,7 +277,7 @@ header {
 
 @media (max-width:1200px) {
     .img-holder {
-        padding-bottom: 50%;
+        //padding-bottom: 50%;
     }
 }
 
@@ -281,7 +286,7 @@ header {
         font-size: 17px;
     }
     .img-holder {
-        padding-bottom: 100%;
+        //padding-bottom: 100%;
     }
 }
 
@@ -682,7 +687,48 @@ header {
     cursor: pointer;
     margin: 10px 1px;
 }
+@media screen and (min-width: 1706px) {
+    .imgSize{
+        width: 50%
+    }
+}
+
+@media screen and (max-width: 1705px) {
+    .imgSize{
+        width: 66%
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .h5{
+        font-size: 1.5em;
+    }
+   
+}
+
+@media screen and (max-width: 800px) {
+    h5{
+        font-size: 1.2em;
+    }
+    .imgSize{
+        width: 80%
+    }
+}
 
 
+@media screen and (max-width: 800px) {
+    h5{
+        font-size: 1em;
+    }
+    .imgSize{
+        width: 90%
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    body{
+        font-size: 0.8em!important;
+    }
+}
 
 
